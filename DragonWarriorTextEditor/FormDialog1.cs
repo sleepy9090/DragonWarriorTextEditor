@@ -33,6 +33,9 @@ namespace DragonWarriorTextEditor
                 string absoluteFilename = path;
                 Backend backend = new Backend();
 
+                // TODO: This should be something like backend.updateROMText(absoluteFilename, 0x1D, textBoxRR1.Text,  0x8529, 0);
+                // Don't pass the whole object.
+
                 backend.updateROMText(absoluteFilename, 0x1D, textBoxRR1,  0x8529, 0); //<Thou cannot hold more Herbs>
                 backend.updateROMText(absoluteFilename, 0x1B, textBoxRR2,  0x8548, 0); //<Thou cannot carry anymore>
                 backend.updateROMText(absoluteFilename, 0x1C, textBoxRR3,  0x8565, 0); //<Thou hast not enough money>
@@ -94,6 +97,8 @@ namespace DragonWarriorTextEditor
             {
                 Backend backend = new Backend();
 
+                // TODO: refactor this, the textboxt should not be passed to the backend,
+                // Should be something like textBoxRR1.text = backend.getText(path,  0x1D, 0x8529, 0);
                 backend.getText(path, textBoxRR1,  0x1D, 0x8529, 0);
                 backend.getText(path, textBoxRR2,  0x1B, 0x8548, 0);
                 backend.getText(path, textBoxRR3,  0x1C, 0x8565, 0);
