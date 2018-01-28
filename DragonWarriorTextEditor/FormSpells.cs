@@ -26,18 +26,18 @@ namespace DragonWarriorTextEditor {
         private void buttonUpdateText_Click(object sender, EventArgs e) {
             try {
                 string absoluteFilename = path;
-                Backend backend = new Backend();
+                Backend backend = new Backend(path);
 
-                backend.updateROMText(absoluteFilename, 0x4, textBoxPG1,  0x7E66, 0); //HEAL
-                backend.updateROMText(absoluteFilename, 0x4, textBoxPG2,  0x7E6B, 0); //HURT
-                backend.updateROMText(absoluteFilename, 0x5, textBoxPG3,  0x7E70, 0); //SLEEP
-                backend.updateROMText(absoluteFilename, 0x7, textBoxPG4,  0x7E76, 0); //RADIANT
-                backend.updateROMText(absoluteFilename, 0x9, textBoxPG5,  0x7E7E, 0); //STOPSPELL
-                backend.updateROMText(absoluteFilename, 0x7, textBoxPG6,  0x7E88, 0); //OUTSIDE
-                backend.updateROMText(absoluteFilename, 0x6, textBoxPG7,  0x7E90, 0); //RETURN
-                backend.updateROMText(absoluteFilename, 0x5, textBoxPG8,  0x7E97, 0); //REPEL
-                backend.updateROMText(absoluteFilename, 0x8, textBoxPG9,  0x7E9D, 0); //HEALMORE
-                backend.updateROMText(absoluteFilename, 0x8, textBoxPG10, 0x7EA6, 0); //HURTMORE
+                backend.updateROMText(0x4, textBoxPG1.Text, 0x7E66, 0); //HEAL
+                backend.updateROMText(0x4, textBoxPG2.Text, 0x7E6B, 0); //HURT
+                backend.updateROMText(0x5, textBoxPG3.Text, 0x7E70, 0); //SLEEP
+                backend.updateROMText(0x7, textBoxPG4.Text, 0x7E76, 0); //RADIANT
+                backend.updateROMText(0x9, textBoxPG5.Text, 0x7E7E, 0); //STOPSPELL
+                backend.updateROMText(0x7, textBoxPG6.Text, 0x7E88, 0); //OUTSIDE
+                backend.updateROMText(0x6, textBoxPG7.Text, 0x7E90, 0); //RETURN
+                backend.updateROMText(0x5, textBoxPG8.Text, 0x7E97, 0); //REPEL
+                backend.updateROMText(0x8, textBoxPG9.Text, 0x7E9D, 0); //HEALMORE
+                backend.updateROMText(0x8, textBoxPG10.Text, 0x7EA6, 0); //HURTMORE
 
                 MessageBox.Show("Updated Text!", "Dragon Warrior Text Editor", MessageBoxButtons.OK, MessageBoxIcon.Information);
             } catch (Exception ex) {
@@ -52,18 +52,18 @@ namespace DragonWarriorTextEditor {
 
         private void readRomText() {
             try {
-                Backend backend = new Backend();
+                Backend backend = new Backend(path);
 
-                backend.getText(path, textBoxPG1, 0x4, 0x7E66, 0);
-                backend.getText(path, textBoxPG2, 0x4, 0x7E6B, 0);
-                backend.getText(path, textBoxPG3, 0x5, 0x7E70, 0);
-                backend.getText(path, textBoxPG4, 0x7, 0x7E76, 0);
-                backend.getText(path, textBoxPG5, 0x9, 0x7E7E, 0);
-                backend.getText(path, textBoxPG6, 0x7, 0x7E88, 0);
-                backend.getText(path, textBoxPG7, 0x6, 0x7E90, 0);
-                backend.getText(path, textBoxPG8, 0x5, 0x7E97, 0);
-                backend.getText(path, textBoxPG9, 0x8, 0x7E9D, 0);
-                backend.getText(path, textBoxPG10,0x8, 0x7EA6, 0);
+                textBoxPG1.Text = backend.getROMText(0x4, 0x7E66, 0);
+                textBoxPG2.Text = backend.getROMText(0x4, 0x7E6B, 0);
+                textBoxPG3.Text = backend.getROMText(0x5, 0x7E70, 0);
+                textBoxPG4.Text = backend.getROMText(0x7, 0x7E76, 0);
+                textBoxPG5.Text = backend.getROMText(0x9, 0x7E7E, 0);
+                textBoxPG6.Text = backend.getROMText(0x7, 0x7E88, 0);
+                textBoxPG7.Text = backend.getROMText(0x6, 0x7E90, 0);
+                textBoxPG8.Text = backend.getROMText(0x5, 0x7E97, 0);
+                textBoxPG9.Text = backend.getROMText(0x8, 0x7E9D, 0);
+                textBoxPG10.Text = backend.getROMText(0x8, 0x7EA6, 0);
 
             } catch (Exception ex) {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);

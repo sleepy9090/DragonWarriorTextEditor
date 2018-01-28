@@ -31,48 +31,48 @@ namespace DragonWarriorTextEditor
             try
             {
                 string absoluteFilename = path;
-                Backend backend = new Backend();
+                Backend backend = new Backend(path);
 
-                backend.updateROMText(absoluteFilename, 0x64, textBoxBB1,  0x9C10, 0); //<ﾟTis said that the Dragonlord hath claws that can cleave iron and fiery breath that can melt stone>
-                backend.updateROMText(absoluteFilename, 0x21, textBoxBB2,  0x9C76, 0); //<Dost thou still wish to go on?'~
-                backend.updateROMText(absoluteFilename, 0x39, textBoxBB3,  0x9C98, 0); //<This is a magic place.~Hast thou found a magic temple?'~
-                backend.updateROMText(absoluteFilename, 0x30, textBoxBB4,  0x9CD2, 0); //<When entering the cave, take with thee a torch>
-                backend.updateROMText(absoluteFilename, 0x1B, textBoxBB5,  0x9D03, 0); //<Go to the town of Cantlin>
-                backend.updateROMText(absoluteFilename, 0x2F, textBoxBB6,  0x9D1F, 0); //<I have heard that powerful enemies live there>
-                backend.updateROMText(absoluteFilename, 0x16, textBoxBB7,  0x9D4F, 0); //<Thou art truly brave>
-                backend.updateROMText(absoluteFilename, 0x29, textBoxBB8,  0x9D66, 0); //<In this temple do the sun and rain meet>
-                backend.updateROMText(absoluteFilename, 0x3B, textBoxBB9,  0x9D91, 0); //<Howard had it, but he went to Rimuldar and never returned>
-                backend.updateROMText(absoluteFilename, 0x3A, textBoxBB10, 0x9DCD, 0); //<To the south, I believe, there is a town called Rimuldar>
-                backend.updateROMText(absoluteFilename, 0x30, textBoxBB11, 0x9E08, 0); //<That is good>~<No one will say thou art afraid>
-                backend.updateROMText(absoluteFilename, 0x11, textBoxBB12, 0x9E39, 0); //<Go to the south>
-                backend.updateROMText(absoluteFilename, 0x2D, textBoxBB13, 0x9E4B, 0); //<Where oh where can I find Princess Gwaelin?'
-                backend.updateROMText(absoluteFilename, 0x23, textBoxBB14, 0x9E79, 0); //<Thank you for saving the Princess>
-                backend.updateROMText(absoluteFilename, 0x2A, textBoxBB15, 0x9E9D, 0); //<Oh, my dearest Gwaelin!'~<I hate thee, ь>
-                backend.updateROMText(absoluteFilename, 0x3E, textBoxBB16, 0x9EC8, 0); //<Tell King Lorik that the search for his daughter hath failed>
-                backend.updateROMText(absoluteFilename, 0x14, textBoxBB17, 0x9F08, 0); //<I am almost gone....'
-                backend.updateROMText(absoluteFilename, 0x31, textBoxBB18, 0x9F1D, 0); //<Who touches me?'~<I see nothing, nor can I hear>
-                backend.updateROMText(absoluteFilename, 0x29, textBoxBB19, 0x9F4F, 0); //<Dost thou know about Princess Gwaelin?'~
-                backend.updateROMText(absoluteFilename, 0x4B, textBoxBB20, 0x9F79, 0); //<Half a year now hath passed since the Princess was kidnapped by the enemy>
-                backend.updateROMText(absoluteFilename, 0x40, textBoxBB21, 0x9FC6, 0); //<Never does the King speak of it, but he must be suffering much>
-                backend.updateROMText(absoluteFilename, 0x1D, textBoxBB22, 0xA008, 0); //<ь, please save the Princess>
-                backend.updateROMText(absoluteFilename, 0xD,  textBoxBB23, 0xA026, 0); //<Oh, brave ь>
-                backend.updateROMText(absoluteFilename, 0x2F, textBoxBB24, 0xA034, 0); //<I have been waiting long for one such as thee>
-                backend.updateROMText(absoluteFilename, 0x25, textBoxBB25, 0xA065, 0); //<Thou hast no business here.~Go away>
-                backend.updateROMText(absoluteFilename, 0x20, textBoxBB26, 0xA08B, 0); //<If thou art cursed, come again>
-                backend.updateROMText(absoluteFilename, 0x21, textBoxBB27, 0xA0AC, 0); //<I will free thee from thy curse>
-                backend.updateROMText(absoluteFilename, 0x9,  textBoxBB28, 0xA0CF, 0); //<Now, go>
-                backend.updateROMText(absoluteFilename, 0x68, textBoxBB29, 0xA0D9, 0); //<Though thou art as brave as thy ancestor, ь, thou cannot defeat the great Dragonlord with such weapons>
-                backend.updateROMText(absoluteFilename, 0x1F, textBoxBB30, 0xA143, 0); //<Thou shouldst come here again>
-                backend.updateROMText(absoluteFilename, 0x22, textBoxBB31, 0xA163, 0); //<Finally thou hast obtained it, ь>
-                backend.updateROMText(absoluteFilename, 0x3E, textBoxBB32, 0xA186, 0); //<Is that a wedding ring?'~<Thou seems too young to be married>
-                backend.updateROMText(absoluteFilename, 0x1F, textBoxBB33, 0xA1C5, 0); //<All true warriors wear a ring>
-                backend.updateROMText(absoluteFilename, 0x50, textBoxBB34, 0xA1E5, 0); //<ь゜s coming was foretold by legend.~May the light shine upon this brave warrior>
-                backend.updateROMText(absoluteFilename, 0x18, textBoxBB35, 0xA237, 0); //<Thou may go and search>
-                backend.updateROMText(absoluteFilename, 0x48, textBoxBB36, 0xA251, 0); //<From Tantegel Castle travel 70 leagues to the south and 40 to the east>
-                backend.updateROMText(absoluteFilename, 0xF,  textBoxBB37, 0xA29B, 0); //<It゜s a legend>
-                backend.updateROMText(absoluteFilename, 0x1C, textBoxBB38, 0xA2AB, 0); //<Thy bravery must be proven>
-                backend.updateROMText(absoluteFilename, 0x18, textBoxBB39, 0xA2C9, 0); //<Thus, I propose a test>
-                backend.updateROMText(absoluteFilename, 0x48, textBoxBB40, 0xA2E3, 0); //<There is a Silver Harp that beckons to the creatures of the Dragonlord>
+                backend.updateROMText(0x64, textBoxBB1.Text, 0x9C10, 0); //<ﾟTis said that the Dragonlord hath claws that can cleave iron and fiery breath that can melt stone>
+                backend.updateROMText(0x21, textBoxBB2.Text, 0x9C76, 0); //<Dost thou still wish to go on?'~
+                backend.updateROMText(0x39, textBoxBB3.Text, 0x9C98, 0); //<This is a magic place.~Hast thou found a magic temple?'~
+                backend.updateROMText(0x30, textBoxBB4.Text, 0x9CD2, 0); //<When entering the cave, take with thee a torch>
+                backend.updateROMText(0x1B, textBoxBB5.Text, 0x9D03, 0); //<Go to the town of Cantlin>
+                backend.updateROMText(0x2F, textBoxBB6.Text, 0x9D1F, 0); //<I have heard that powerful enemies live there>
+                backend.updateROMText(0x16, textBoxBB7.Text, 0x9D4F, 0); //<Thou art truly brave>
+                backend.updateROMText(0x29, textBoxBB8.Text, 0x9D66, 0); //<In this temple do the sun and rain meet>
+                backend.updateROMText(0x3B, textBoxBB9.Text, 0x9D91, 0); //<Howard had it, but he went to Rimuldar and never returned>
+                backend.updateROMText(0x3A, textBoxBB10.Text, 0x9DCD, 0); //<To the south, I believe, there is a town called Rimuldar>
+                backend.updateROMText(0x30, textBoxBB11.Text, 0x9E08, 0); //<That is good>~<No one will say thou art afraid>
+                backend.updateROMText(0x11, textBoxBB12.Text, 0x9E39, 0); //<Go to the south>
+                backend.updateROMText(0x2D, textBoxBB13.Text, 0x9E4B, 0); //<Where oh where can I find Princess Gwaelin?'
+                backend.updateROMText(0x23, textBoxBB14.Text, 0x9E79, 0); //<Thank you for saving the Princess>
+                backend.updateROMText(0x2A, textBoxBB15.Text, 0x9E9D, 0); //<Oh, my dearest Gwaelin!'~<I hate thee, ь>
+                backend.updateROMText(0x3E, textBoxBB16.Text, 0x9EC8, 0); //<Tell King Lorik that the search for his daughter hath failed>
+                backend.updateROMText(0x14, textBoxBB17.Text, 0x9F08, 0); //<I am almost gone....'
+                backend.updateROMText(0x31, textBoxBB18.Text, 0x9F1D, 0); //<Who touches me?'~<I see nothing, nor can I hear>
+                backend.updateROMText(0x29, textBoxBB19.Text, 0x9F4F, 0); //<Dost thou know about Princess Gwaelin?'~
+                backend.updateROMText(0x4B, textBoxBB20.Text, 0x9F79, 0); //<Half a year now hath passed since the Princess was kidnapped by the enemy>
+                backend.updateROMText(0x40, textBoxBB21.Text, 0x9FC6, 0); //<Never does the King speak of it, but he must be suffering much>
+                backend.updateROMText(0x1D, textBoxBB22.Text, 0xA008, 0); //<ь, please save the Princess>
+                backend.updateROMText(0xD, textBoxBB23.Text, 0xA026, 0); //<Oh, brave ь>
+                backend.updateROMText(0x2F, textBoxBB24.Text, 0xA034, 0); //<I have been waiting long for one such as thee>
+                backend.updateROMText(0x25, textBoxBB25.Text, 0xA065, 0); //<Thou hast no business here.~Go away>
+                backend.updateROMText(0x20, textBoxBB26.Text, 0xA08B, 0); //<If thou art cursed, come again>
+                backend.updateROMText(0x21, textBoxBB27.Text, 0xA0AC, 0); //<I will free thee from thy curse>
+                backend.updateROMText(0x9, textBoxBB28.Text, 0xA0CF, 0); //<Now, go>
+                backend.updateROMText(0x68, textBoxBB29.Text, 0xA0D9, 0); //<Though thou art as brave as thy ancestor, ь, thou cannot defeat the great Dragonlord with such weapons>
+                backend.updateROMText(0x1F, textBoxBB30.Text, 0xA143, 0); //<Thou shouldst come here again>
+                backend.updateROMText(0x22, textBoxBB31.Text, 0xA163, 0); //<Finally thou hast obtained it, ь>
+                backend.updateROMText(0x3E, textBoxBB32.Text, 0xA186, 0); //<Is that a wedding ring?'~<Thou seems too young to be married>
+                backend.updateROMText(0x1F, textBoxBB33.Text, 0xA1C5, 0); //<All true warriors wear a ring>
+                backend.updateROMText(0x50, textBoxBB34.Text, 0xA1E5, 0); //<ь゜s coming was foretold by legend.~May the light shine upon this brave warrior>
+                backend.updateROMText(0x18, textBoxBB35.Text, 0xA237, 0); //<Thou may go and search>
+                backend.updateROMText(0x48, textBoxBB36.Text, 0xA251, 0); //<From Tantegel Castle travel 70 leagues to the south and 40 to the east>
+                backend.updateROMText(0xF, textBoxBB37.Text, 0xA29B, 0); //<It゜s a legend>
+                backend.updateROMText(0x1C, textBoxBB38.Text, 0xA2AB, 0); //<Thy bravery must be proven>
+                backend.updateROMText(0x18, textBoxBB39.Text, 0xA2C9, 0); //<Thus, I propose a test>
+                backend.updateROMText(0x48, textBoxBB40.Text, 0xA2E3, 0); //<There is a Silver Harp that beckons to the creatures of the Dragonlord>
 
                 MessageBox.Show("Updated Text!", "Dragon Warrior Text Editor", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -92,48 +92,48 @@ namespace DragonWarriorTextEditor
         {
             try
             {
-                Backend backend = new Backend();
+                Backend backend = new Backend(path);
 
-                backend.getText(path, textBoxBB1,  0x64, 0x9C10, 0);
-                backend.getText(path, textBoxBB2,  0x21, 0x9C76, 0);
-                backend.getText(path, textBoxBB3,  0x39, 0x9C98, 0);
-                backend.getText(path, textBoxBB4,  0x30, 0x9CD2, 0);
-                backend.getText(path, textBoxBB5,  0x1B, 0x9D03, 0);
-                backend.getText(path, textBoxBB6,  0x2F, 0x9D1F, 0);
-                backend.getText(path, textBoxBB7,  0x16, 0x9D4F, 0);
-                backend.getText(path, textBoxBB8,  0x29, 0x9D66, 0);
-                backend.getText(path, textBoxBB9,  0x3B, 0x9D91, 0);
-                backend.getText(path, textBoxBB10, 0x3A, 0x9DCD, 0);
-                backend.getText(path, textBoxBB11, 0x30, 0x9E08, 0);
-                backend.getText(path, textBoxBB12, 0x11, 0x9E39, 0);
-                backend.getText(path, textBoxBB13, 0x2D, 0x9E4B, 0);
-                backend.getText(path, textBoxBB14, 0x23, 0x9E79, 0);
-                backend.getText(path, textBoxBB15, 0x2A, 0x9E9D, 0);
-                backend.getText(path, textBoxBB16, 0x3E, 0x9EC8, 0);
-                backend.getText(path, textBoxBB17, 0x14, 0x9F08, 0);
-                backend.getText(path, textBoxBB18, 0x31, 0x9F1D, 0);
-                backend.getText(path, textBoxBB19, 0x29, 0x9F4F, 0);
-                backend.getText(path, textBoxBB20, 0x4B, 0x9F79, 0);
-                backend.getText(path, textBoxBB21, 0x40, 0x9FC6, 0);
-                backend.getText(path, textBoxBB22, 0x1D,  0xA008, 0);
-                backend.getText(path, textBoxBB23, 0xD, 0xA026, 0);
-                backend.getText(path, textBoxBB24, 0x2F, 0xA034, 0);
-                backend.getText(path, textBoxBB25, 0x25, 0xA065, 0);
-                backend.getText(path, textBoxBB26, 0x20, 0xA08B, 0);
-                backend.getText(path, textBoxBB27, 0x21, 0xA0AC, 0);
-                backend.getText(path, textBoxBB28, 0x9, 0xA0CF, 0);
-                backend.getText(path, textBoxBB29, 0x68, 0xA0D9, 0);
-                backend.getText(path, textBoxBB30, 0x1F, 0xA143, 0);
-                backend.getText(path, textBoxBB31, 0x22, 0xA163, 0);
-                backend.getText(path, textBoxBB32, 0x3E, 0xA186, 0);
-                backend.getText(path, textBoxBB33, 0x1F, 0xA1C5, 0);
-                backend.getText(path, textBoxBB34, 0x50, 0xA1E5, 0);
-                backend.getText(path, textBoxBB35, 0x18, 0xA237, 0);
-                backend.getText(path, textBoxBB36, 0x48, 0xA251, 0);
-                backend.getText(path, textBoxBB37, 0xF, 0xA29B, 0);
-                backend.getText(path, textBoxBB38, 0x1C, 0xA2AB, 0);
-                backend.getText(path, textBoxBB39, 0x18, 0xA2C9, 0);
-                backend.getText(path, textBoxBB40, 0x48, 0xA2E3, 0);
+                textBoxBB1.Text = backend.getROMText(0x64, 0x9C10, 0);
+                textBoxBB2.Text = backend.getROMText(0x21, 0x9C76, 0);
+                textBoxBB3.Text = backend.getROMText(0x39, 0x9C98, 0);
+                textBoxBB4.Text = backend.getROMText(0x30, 0x9CD2, 0);
+                textBoxBB5.Text = backend.getROMText(0x1B, 0x9D03, 0);
+                textBoxBB6.Text = backend.getROMText(0x2F, 0x9D1F, 0);
+                textBoxBB7.Text = backend.getROMText(0x16, 0x9D4F, 0);
+                textBoxBB8.Text = backend.getROMText(0x29, 0x9D66, 0);
+                textBoxBB9.Text = backend.getROMText(0x3B, 0x9D91, 0);
+                textBoxBB10.Text = backend.getROMText(0x3A, 0x9DCD, 0);
+                textBoxBB11.Text = backend.getROMText(0x30, 0x9E08, 0);
+                textBoxBB12.Text = backend.getROMText(0x11, 0x9E39, 0);
+                textBoxBB13.Text = backend.getROMText(0x2D, 0x9E4B, 0);
+                textBoxBB14.Text = backend.getROMText(0x23, 0x9E79, 0);
+                textBoxBB15.Text = backend.getROMText(0x2A, 0x9E9D, 0);
+                textBoxBB16.Text = backend.getROMText(0x3E, 0x9EC8, 0);
+                textBoxBB17.Text = backend.getROMText(0x14, 0x9F08, 0);
+                textBoxBB18.Text = backend.getROMText(0x31, 0x9F1D, 0);
+                textBoxBB19.Text = backend.getROMText(0x29, 0x9F4F, 0);
+                textBoxBB20.Text = backend.getROMText(0x4B, 0x9F79, 0);
+                textBoxBB21.Text = backend.getROMText(0x40, 0x9FC6, 0);
+                textBoxBB22.Text = backend.getROMText(0x1D, 0xA008, 0);
+                textBoxBB23.Text = backend.getROMText(0xD, 0xA026, 0);
+                textBoxBB24.Text = backend.getROMText(0x2F, 0xA034, 0);
+                textBoxBB25.Text = backend.getROMText(0x25, 0xA065, 0);
+                textBoxBB26.Text = backend.getROMText(0x20, 0xA08B, 0);
+                textBoxBB27.Text = backend.getROMText(0x21, 0xA0AC, 0);
+                textBoxBB28.Text = backend.getROMText(0x9, 0xA0CF, 0);
+                textBoxBB29.Text = backend.getROMText(0x68, 0xA0D9, 0);
+                textBoxBB30.Text = backend.getROMText(0x1F, 0xA143, 0);
+                textBoxBB31.Text = backend.getROMText(0x22, 0xA163, 0);
+                textBoxBB32.Text = backend.getROMText(0x3E, 0xA186, 0);
+                textBoxBB33.Text = backend.getROMText(0x1F, 0xA1C5, 0);
+                textBoxBB34.Text = backend.getROMText(0x50, 0xA1E5, 0);
+                textBoxBB35.Text = backend.getROMText(0x18, 0xA237, 0);
+                textBoxBB36.Text = backend.getROMText(0x48, 0xA251, 0);
+                textBoxBB37.Text = backend.getROMText(0xF, 0xA29B, 0);
+                textBoxBB38.Text = backend.getROMText(0x1C, 0xA2AB, 0);
+                textBoxBB39.Text = backend.getROMText(0x18, 0xA2C9, 0);
+                textBoxBB40.Text = backend.getROMText(0x48, 0xA2E3, 0);
             }
             catch (Exception ex)
             {

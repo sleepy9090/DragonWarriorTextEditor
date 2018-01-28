@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
 /*
  * Author: Shawn M. Crawford [sleepy]
@@ -19,10 +18,6 @@ namespace DragonWarriorTextEditor {
 
         int textFlag = 0;
         string path;
-
-        public Backend() {
-
-        }
 
         public Backend(string gamePath)
         {
@@ -116,7 +111,7 @@ namespace DragonWarriorTextEditor {
         }
         #endregion
 
-        public void getText(string path, TextBox texboxname, int length, int offset, int decodeOption) {
+        public string getROMText(int length, int offset, int decodeOption) {
 
             string romCodeString = "";
             string dragonWarriorAsciiOut = "";
@@ -146,19 +141,22 @@ namespace DragonWarriorTextEditor {
                         }
                         x++;
 
-                        texboxname.Text = dragonWarriorAsciiOut;
+                        
                     }
 
                     fileStream.Close();
                 } catch (Exception e) {
-                    MessageBox.Show("Error: " + e, "Dragon Warrior Text Editor", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    // TODO: Bubble up the error message
+                    // MessageBox.Show("Error: " + e, "Dragon Warrior Text Editor", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+            return dragonWarriorAsciiOut;
         }
 
-        public void updateROMText(string absoluteFilename, int length, TextBox textBox, int offset, int decodeOption) {
+        public void updateROMText(int length, string newDragonWarriorString, int offset, int decodeOption) {
             // TODO: Optimize/refactor, this is ugly
-            string newDragonWarriorString = textBox.Text;
+            // TODO: padding on newDragonWarriorString
+            //string newDragonWarriorString = textBox.Text;
 
             newDragonWarriorString = newDragonWarriorString.PadRight(length);
             string hexReturn = "";
@@ -198,7 +196,7 @@ namespace DragonWarriorTextEditor {
                 x++;
             }
 
-            using (FileStream fileStream = new FileStream(@absoluteFilename, FileMode.Open, FileAccess.Write)) {
+            using (FileStream fileStream = new FileStream(@path, FileMode.Open, FileAccess.Write)) {
                 try {
                     fileStream.Seek(offset, SeekOrigin.Begin);
                     x = 0;
@@ -207,7 +205,8 @@ namespace DragonWarriorTextEditor {
                         x++;
                     }
                 } catch (Exception e) {
-                    MessageBox.Show("Error: " + e, "Dragon Warrior Text Editor", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    // TODO: Bubble up the error message
+                    // MessageBox.Show("Error: " + e, "Dragon Warrior Text Editor", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
