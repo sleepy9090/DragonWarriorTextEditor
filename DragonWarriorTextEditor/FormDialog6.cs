@@ -72,7 +72,7 @@ namespace DragonWarriorTextEditor
                 backend.updateROMText(0x10, textBoxEE37.Text, 0xAF53, 0); //The ё is asleep.
                 backend.updateROMText(0xE, textBoxEE38.Text, 0xAF66, 0); //The ё attacks!
                 backend.updateROMText(0x18, textBoxEE39.Text, 0xAF75, 0); //Thy Hitś decreased by Ɠ.
-                backend.updateROMText(0x28, textBoxEE40.Text, 0xAF8E, 0); //A miss! No damage hath been scored!
+                backend.updateROMText(0x23, textBoxEE40.Text, 0xAF8E, 0); //A miss! No damage hath been scored!
 
                 MessageBox.Show("Updated Text!", "Dragon Warrior Text Editor", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -133,7 +133,7 @@ namespace DragonWarriorTextEditor
                 textBoxEE37.Text = backend.getROMText(0x10, 0xAF53, 0);
                 textBoxEE38.Text = backend.getROMText(0xE, 0xAF66, 0);
                 textBoxEE39.Text = backend.getROMText(0x18, 0xAF75, 0);
-                textBoxEE40.Text = backend.getROMText(0x28, 0xAF8E, 0);
+                textBoxEE40.Text = backend.getROMText(0x23, 0xAF8E, 0);
             }
             catch (Exception ex)
             {
@@ -182,7 +182,7 @@ namespace DragonWarriorTextEditor
             textBoxEE37.MaxLength = 0x10;
             textBoxEE38.MaxLength = 0xE;
             textBoxEE39.MaxLength = 0x18;
-            textBoxEE40.MaxLength = 0x28;
+            textBoxEE40.MaxLength = 0x23;
         }
     }
 }

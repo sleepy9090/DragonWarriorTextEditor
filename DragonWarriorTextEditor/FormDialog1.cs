@@ -67,7 +67,7 @@ namespace DragonWarriorTextEditor
                 backend.updateROMText(0x2E, textBoxRR32.Text, 0x892D, 0); //ь adjusted the position of the Fighter゜s Ring.
                 backend.updateROMText(0x15, textBoxRR33.Text, 0x895C, 0); //ь held the ϊ tightly.
                 backend.updateROMText(0x24, textBoxRR34.Text, 0x8972, 0); //ь played a sweet melody on the harp.
-                backend.updateROMText(0x1F, textBoxRR35.Text, 0x8997, 0); //ь put on the ϊ and was cursed!.
+                backend.updateROMText(0x1E, textBoxRR35.Text, 0x8997, 0); //ь put on the ϊ and was cursed!
                 backend.updateROMText(0x1B, textBoxRR36.Text, 0x89B8, 0); //Thy body is being squeezed.
                 backend.updateROMText(0x1C, textBoxRR37.Text, 0x89D4, 0); //The ϊ is squeezing thy body.
                 backend.updateROMText(0x15, textBoxRR38.Text, 0x89F1, 0); //<Cursed one,be gone!'
@@ -128,7 +128,7 @@ namespace DragonWarriorTextEditor
                 textBoxRR32.Text = backend.getROMText(0x2E, 0x892D, 0);
                 textBoxRR33.Text = backend.getROMText(0x15, 0x895C, 0);
                 textBoxRR34.Text = backend.getROMText(0x24, 0x8972, 0);
-                textBoxRR35.Text = backend.getROMText(0x1F, 0x8997, 0);
+                textBoxRR35.Text = backend.getROMText(0x1E, 0x8997, 0);
                 textBoxRR36.Text = backend.getROMText(0x1B, 0x89B8, 0);
                 textBoxRR37.Text = backend.getROMText(0x1C, 0x89D4, 0);
                 textBoxRR38.Text = backend.getROMText(0x15, 0x89F1, 0);
@@ -177,7 +177,7 @@ namespace DragonWarriorTextEditor
             textBoxRR32.MaxLength = 0x2E;
             textBoxRR33.MaxLength = 0x15;
             textBoxRR34.MaxLength = 0x24;
-            textBoxRR35.MaxLength = 0x1F;
+            textBoxRR35.MaxLength = 0x1E;
             textBoxRR36.MaxLength = 0x1B;
             textBoxRR37.MaxLength = 0x1C;
             textBoxRR38.MaxLength = 0x15;

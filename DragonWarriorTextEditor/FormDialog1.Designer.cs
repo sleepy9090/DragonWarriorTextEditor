@@ -452,7 +452,7 @@
             this.buttonUpdateText.UseVisualStyleBackColor = true;
             this.buttonUpdateText.Click += new System.EventHandler(this.buttonUpdateText_Click);
             // 
-            // Form10
+            // FormDialog1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -462,7 +462,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "Form10";
+            this.Name = "FormDialog1";
             this.Text = "Dialog 1";
             this.Load += new System.EventHandler(this.FormDialog1_Load);
             this.groupBox1.ResumeLayout(false);
