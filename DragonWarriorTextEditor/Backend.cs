@@ -13,19 +13,24 @@ using System.Threading.Tasks;
 namespace DragonWarriorTextEditor {
     class Backend {
 
-        // 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ“”'*:$.,-?!;)(<’>
-        // @ pointer to the character's name
-        // # pointer to the enemy, e.g. The ё’s Hitϋ have been reduced by %.
-        // % pointer to numeric amount, e.g. Imperial Scroll number, Gold amount, maximum hit points increase by, etc
-        // & pointer to the spell that was used
-        // + pointer to the item
-        // < Thy Maximum Hitϋ increase by %.,  Thy Maximum Magicϋ increase by %.
-        // = pointer to enemy e.g. Aш draws near!
-        // | pointer to experience points e.g. ‘Before reaching thy next level of experience thou must gain Ě.’
+        // Char information
+        // 0123456789
+        // abcdefghijklmnopqrstuvwxyz
+        // ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        // “”'*:.,-?!;)(‘’
+        // @ pointer to the character's name. Ex. @ put on the Fighter’s Ring.
+        // # pointer to the enemy. Ex. The # hath recovered.
+        // % pointer to numeric amount. (Imperial Scroll number, Gold amount, maximum hit points increase by, etc)  Ex. ‘Then I will buy thy + for % GOLD^
+        // & pointer to the spell that was used. Ex. @ chanted the spell of &.
+        // + pointer to the item. Ex. The + is squeezing thy body.
+        // < pointer to mp/hp etc. Ex. The #’s Hit< have been reduced by %. Thy Hit< decreased by %.
+        // = another pointer to an enemy. Ex. A= draws near!
+        // | pointer to experience points. Ex. ‘Before reaching thy next level of experience thou must gain |.’
         // ~ New line
         // > Cursor pointing right
         // _ Cursor pointing down
-        // ^ equals .’
+        // ^ represents .’
+        // $ represents ..
 
         int textFlag = 0;
         string path;
@@ -34,93 +39,6 @@ namespace DragonWarriorTextEditor {
         {
             path = gamePath;
         }
-
-        #region common methods
-        private static string convertAsciiToHex(String asciiString)
-        {
-            char[] charValues = asciiString.ToCharArray();
-            string hexValue = "";
-            foreach(char c in charValues)
-            {
-                int value = Convert.ToInt32(c);
-                hexValue += String.Format("{0:X}", value);
-            }
-            return hexValue;
-        }
-
-        private static string convertHexToAscii(String hexString)
-        {
-            try
-            {
-                string ascii = string.Empty;
-
-                for(int i = 0; i < hexString.Length; i += 2)
-                {
-                    String hs = string.Empty;
-
-                    hs = hexString.Substring(i, 2);
-                    uint decval = System.Convert.ToUInt32(hs, 16);
-                    char character = System.Convert.ToChar(decval);
-                    ascii += character;
-
-                }
-
-                return ascii;
-            }
-            catch(Exception ex)
-            {
-                // Console.WriteLine(ex.Message);
-            }
-
-            return string.Empty;
-        }
-
-        private string getHexStringFromFile(int startPoint, int length)
-        {
-            string hexString = "";
-            using(FileStream fileStream = new FileStream(@path, FileMode.Open, FileAccess.Read))
-            {
-                long offset = fileStream.Seek(startPoint, SeekOrigin.Begin);
-
-                for(int x = 0; x < length; x++)
-                {
-                    hexString += fileStream.ReadByte().ToString("X2");
-                }
-
-            }
-
-            return hexString;
-        }
-
-        private static byte[] StringToByteArray(string hex)
-        {
-            return Enumerable.Range(0, hex.Length)
-                             .Where(x => x % 2 == 0)
-                             .Select(x => Convert.ToByte(hex.Substring(x, 2), 16))
-                             .ToArray();
-        }
-
-        private bool writeByteArrayToFile(string fileName, int startPoint, byte[] byteArray)
-        {
-            bool result = false;
-            try
-            {
-                using(var fs = new FileStream(fileName, FileMode.Open, FileAccess.ReadWrite))
-                {
-                    fs.Position = startPoint;
-                    fs.Write(byteArray, 0, byteArray.Length);
-                    result = true;
-                }
-            }
-            catch(Exception ex)
-            {
-                // Console.WriteLine("Error writing file: {0}", ex);
-                result = false;
-            }
-
-            return result;
-        }
-        #endregion
 
         public string getROMText(int length, int offset, int decodeOption) {
 

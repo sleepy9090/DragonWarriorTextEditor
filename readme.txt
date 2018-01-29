@@ -26,18 +26,19 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 Experimental: “”'*:.,-?!;)(‘’
 
 Special cases (Untested):
-@ pointer to the character's name
-# pointer to the enemy, e.g. The ё’s Hitϋ have been reduced by Ɠ.
-% pointer to numeric amount, e.g. Imperial Scroll number, Gold amount, maximum hit points increase by, etc
-& pointer to the spell that was used
-+ pointer to the item
-< Thy Maximum Hitϋ increase by Ɠ.,  Thy Maximum Magicϋ increase by Ɠ.
-= pointer to enemy e.g. Aш draws near!
-| pointer to experience points e.g. ‘Before reaching thy next level of experience thou must gain Ě.’
+@ pointer to the character's name. Ex. @ put on the Fighter’s Ring.
+# pointer to the enemy. Ex. The # hath recovered.
+% pointer to numeric amount. (Imperial Scroll number, Gold amount, maximum hit points increase by, etc)  Ex. ‘Then I will buy thy + for % GOLD^
+& pointer to the spell that was used. Ex. @ chanted the spell of &.
++ pointer to the item. Ex. The + is squeezing thy body.
+< pointer to mp/hp etc. Ex. The #’s Hit< have been reduced by %. Thy Hit< decreased by %.
+= another pointer to an enemy. Ex. A= draws near!
+| pointer to experience points. Ex. ‘Before reaching thy next level of experience thou must gain |.’
 ~ New line
 > Cursor pointing right
 _ Cursor pointing down
-^ equals .’
+^ represents .’
+$ represents ..
 
 
 --------------------------Ending / Credits Dialog--------------------------
@@ -52,18 +53,19 @@ The following point to custom graphics:
 abcdefghijklmnopqrstuvwxyz
 
 Special cases (Untested):
-@ pointer to the character's name
-# pointer to the enemy, e.g. The ё’s Hitϋ have been reduced by Ɠ.
-% pointer to numeric amount, e.g. Imperial Scroll number, Gold amount, maximum hit points increase by, etc
-& pointer to the spell that was used
-+ pointer to the item
-< Thy Maximum Hitϋ increase by Ɠ.,  Thy Maximum Magicϋ increase by Ɠ.
-= pointer to enemy e.g. Aш draws near!
-| pointer to experience points e.g. ‘Before reaching thy next level of experience thou must gain Ě.’
+@ pointer to the character's name. Ex. @ put on the Fighter’s Ring.
+# pointer to the enemy. Ex. The # hath recovered.
+% pointer to numeric amount. (Imperial Scroll number, Gold amount, maximum hit points increase by, etc)  Ex. ‘Then I will buy thy + for % GOLD^
+& pointer to the spell that was used. Ex. @ chanted the spell of &.
++ pointer to the item. Ex. The + is squeezing thy body.
+< pointer to mp/hp etc. Ex. The #’s Hit< have been reduced by %. Thy Hit< decreased by %.
+= another pointer to an enemy. Ex. A= draws near!
+| pointer to experience points. Ex. ‘Before reaching thy next level of experience thou must gain |.’
 ~ New line
 > Cursor pointing right
 _ Cursor pointing down
-^ equals .’
+^ represents .’
+$ represents ..
 
 
 --------------------------All Other Dialogs--------------------------
@@ -74,18 +76,19 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZ
 “”'*:.,-?!;)(‘’
 
 Special cases:
-@ pointer to the character's name
-# pointer to the enemy, e.g. The ё’s Hitϋ have been reduced by Ɠ.
-% pointer to numeric amount, e.g. Imperial Scroll number, Gold amount, maximum hit points increase by, etc
-& pointer to the spell that was used
-+ pointer to the item
-< Thy Maximum Hitϋ increase by Ɠ.,  Thy Maximum Magicϋ increase by Ɠ.
-= pointer to enemy e.g. Aш draws near!
-| pointer to experience points e.g. ‘Before reaching thy next level of experience thou must gain Ě.’
+@ pointer to the character's name. Ex. @ put on the Fighter’s Ring.
+# pointer to the enemy. Ex. The # hath recovered.
+% pointer to numeric amount. (Imperial Scroll number, Gold amount, maximum hit points increase by, etc)  Ex. ‘Then I will buy thy + for % GOLD^
+& pointer to the spell that was used. Ex. @ chanted the spell of &.
++ pointer to the item. Ex. The + is squeezing thy body.
+< pointer to mp/hp etc. Ex. The #’s Hit< have been reduced by %. Thy Hit< decreased by %.
+= another pointer to an enemy. Ex. A= draws near!
+| pointer to experience points. Ex. ‘Before reaching thy next level of experience thou must gain |.’
 ~ New line
 > Cursor pointing right
 _ Cursor pointing down
-^ equals .’
+^ represents .’
+$ represents ..
 
 
 
