@@ -47,29 +47,29 @@ namespace DragonWarriorTextEditor
                 backend.updateROMText(0x11, textBoxBB12.Text, 0x9E39, 0); //<Go to the south>
                 backend.updateROMText(0x2D, textBoxBB13.Text, 0x9E4B, 0); //<Where oh where can I find Princess Gwaelin?'
                 backend.updateROMText(0x23, textBoxBB14.Text, 0x9E79, 0); //<Thank you for saving the Princess>
-                backend.updateROMText(0x2A, textBoxBB15.Text, 0x9E9D, 0); //<Oh, my dearest Gwaelin!'~<I hate thee, ь>
+                backend.updateROMText(0x2A, textBoxBB15.Text, 0x9E9D, 0); //<Oh, my dearest Gwaelin!'~<I hate thee, @>
                 backend.updateROMText(0x3E, textBoxBB16.Text, 0x9EC8, 0); //<Tell King Lorik that the search for his daughter hath failed>
                 backend.updateROMText(0x14, textBoxBB17.Text, 0x9F08, 0); //<I am almost gone....'
                 backend.updateROMText(0x31, textBoxBB18.Text, 0x9F1D, 0); //<Who touches me?'~<I see nothing, nor can I hear>
                 backend.updateROMText(0x29, textBoxBB19.Text, 0x9F4F, 0); //<Dost thou know about Princess Gwaelin?'~
                 backend.updateROMText(0x4B, textBoxBB20.Text, 0x9F79, 0); //<Half a year now hath passed since the Princess was kidnapped by the enemy>
                 backend.updateROMText(0x40, textBoxBB21.Text, 0x9FC6, 0); //<Never does the King speak of it, but he must be suffering much>
-                backend.updateROMText(0x1D, textBoxBB22.Text, 0xA008, 0); //<ь, please save the Princess>
-                backend.updateROMText(0xD, textBoxBB23.Text, 0xA026, 0); //<Oh, brave ь>
+                backend.updateROMText(0x1D, textBoxBB22.Text, 0xA008, 0); //<@, please save the Princess>
+                backend.updateROMText(0xD, textBoxBB23.Text, 0xA026, 0); //<Oh, brave @>
                 backend.updateROMText(0x2F, textBoxBB24.Text, 0xA034, 0); //<I have been waiting long for one such as thee>
                 backend.updateROMText(0x25, textBoxBB25.Text, 0xA065, 0); //<Thou hast no business here.~Go away>
                 backend.updateROMText(0x20, textBoxBB26.Text, 0xA08B, 0); //<If thou art cursed, come again>
                 backend.updateROMText(0x21, textBoxBB27.Text, 0xA0AC, 0); //<I will free thee from thy curse>
                 backend.updateROMText(0x9, textBoxBB28.Text, 0xA0CF, 0); //<Now, go>
-                backend.updateROMText(0x68, textBoxBB29.Text, 0xA0D9, 0); //<Though thou art as brave as thy ancestor, ь, thou cannot defeat the great Dragonlord with such weapons>
+                backend.updateROMText(0x68, textBoxBB29.Text, 0xA0D9, 0); //<Though thou art as brave as thy ancestor, @, thou cannot defeat the great Dragonlord with such weapons>
                 backend.updateROMText(0x1F, textBoxBB30.Text, 0xA143, 0); //<Thou shouldst come here again>
-                backend.updateROMText(0x22, textBoxBB31.Text, 0xA163, 0); //<Finally thou hast obtained it, ь>
+                backend.updateROMText(0x22, textBoxBB31.Text, 0xA163, 0); //<Finally thou hast obtained it, @>
                 backend.updateROMText(0x3E, textBoxBB32.Text, 0xA186, 0); //<Is that a wedding ring?'~<Thou seems too young to be married>
                 backend.updateROMText(0x1F, textBoxBB33.Text, 0xA1C5, 0); //<All true warriors wear a ring>
-                backend.updateROMText(0x50, textBoxBB34.Text, 0xA1E5, 0); //<ь゜s coming was foretold by legend.~May the light shine upon this brave warrior>
+                backend.updateROMText(0x50, textBoxBB34.Text, 0xA1E5, 0); //<@’s coming was foretold by legend.~May the light shine upon this brave warrior>
                 backend.updateROMText(0x18, textBoxBB35.Text, 0xA237, 0); //<Thou may go and search>
                 backend.updateROMText(0x48, textBoxBB36.Text, 0xA251, 0); //<From Tantegel Castle travel 70 leagues to the south and 40 to the east>
-                backend.updateROMText(0xF, textBoxBB37.Text, 0xA29B, 0); //<It゜s a legend>
+                backend.updateROMText(0xF, textBoxBB37.Text, 0xA29B, 0); //<It’s a legend>
                 backend.updateROMText(0x1C, textBoxBB38.Text, 0xA2AB, 0); //<Thy bravery must be proven>
                 backend.updateROMText(0x18, textBoxBB39.Text, 0xA2C9, 0); //<Thus, I propose a test>
                 backend.updateROMText(0x48, textBoxBB40.Text, 0xA2E3, 0); //<There is a Silver Harp that beckons to the creatures of the Dragonlord>
@@ -82,7 +82,7 @@ namespace DragonWarriorTextEditor
             }
         }
 
-        private void Form9_rc_Load(object sender, EventArgs e)
+        private void FormDialog4_Load(object sender, EventArgs e)
         {
             readRomText();
             setMaxLengthOfTextBoxes();

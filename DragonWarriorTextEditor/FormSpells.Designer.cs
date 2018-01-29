@@ -174,7 +174,7 @@
             this.MaximizeBox = false;
             this.Name = "FormSpells";
             this.Text = "Spells";
-            this.Load += new System.EventHandler(this.Form2_pg_Load);
+            this.Load += new System.EventHandler(this.FormSpells_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

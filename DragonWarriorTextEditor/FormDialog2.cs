@@ -37,12 +37,12 @@ namespace DragonWarriorTextEditor
                 backend.updateROMText(0x5F, textBoxCC2.Text, 0x8AC3, 0); //<King Lorik will record thy deeds in his Imperial Scroll so thou may return to thy quest later>
                 backend.updateROMText(0x3B, textBoxCC3.Text, 0x8B23, 0); //<When the sun and rain meet, a Rainbow Bridge shall appear>
                 backend.updateROMText(0x21, textBoxCC4.Text, 0x8B5F, 0); //<Never does a brave person steal>
-                backend.updateROMText(0x55, textBoxCC5.Text, 0x8B81, 0); //<There was a time when Brecconary was a paradise.~Then the Dragonlord゜s minions came>
+                backend.updateROMText(0x55, textBoxCC5.Text, 0x8B81, 0); //<There was a time when Brecconary was a paradise.~Then the Dragonlord’s minions came>
                 backend.updateROMText(0x1F, textBoxCC6.Text, 0x8BD7, 0); //<Let us wish the warrior well!'
                 backend.updateROMText(0x20, textBoxCC7.Text, 0x8BF8, 0); //<May the light be thy strength!'
                 backend.updateROMText(0x38, textBoxCC8.Text, 0x8C19, 0); //<If thy Hit Points are high enough, by all means, enter>
                 backend.updateROMText(0x7D, textBoxCC9.Text, 0x8C52, 0); //<We are merchants who have traveled much in this land.~Many of our colleagues have been killed by servants of the Dragonlord>
-                backend.updateROMText(0x51, textBoxCC10.Text, 0x8CD0, 0); //<Rumor has it that entire towns have been destroyed by the Dragonlord゜s servants>
+                backend.updateROMText(0x51, textBoxCC10.Text, 0x8CD0, 0); //<Rumor has it that entire towns have been destroyed by the Dragonlord’s servants>
                 backend.updateROMText(0x1C, textBoxCC11.Text, 0x8D22, 0); //<Welcome to Tantegel Castle>
                 backend.updateROMText(0x55, textBoxCC12.Text, 0x8D3F, 0); //<In Garinham,look for the grave of Garin.~Thou must push on a wall of darkness there>
                 backend.updateROMText(0x12, textBoxCC13.Text, 0x8D95, 0); //<A word of advice>
@@ -51,7 +51,7 @@ namespace DragonWarriorTextEditor
                 backend.updateROMText(0x15, textBoxCC16.Text, 0x8E08, 0); //<Beware the bridges!'
                 backend.updateROMText(0x20, textBoxCC17.Text, 0x8E1F, 0); //<Danger grows when thou crosses>
                 backend.updateROMText(0x33, textBoxCC18.Text, 0x8E40, 0); //<There is a town where magic keys can be purchased>
-                backend.updateROMText(0x36, textBoxCC19.Text, 0x8E74, 0); //<Some say that Garin゜s grave is home to a Silver Harp>
+                backend.updateROMText(0x36, textBoxCC19.Text, 0x8E74, 0); //<Some say that Garin’s grave is home to a Silver Harp>
                 backend.updateROMText(0x16, textBoxCC20.Text, 0x8EAB, 0); //<Enter where thou can>
                 backend.updateROMText(0x41, textBoxCC21.Text, 0x8EC2, 0); //<Welcome!~Enter the shop and speak to its keeper across the desk>
                 backend.updateROMText(0x25, textBoxCC22.Text, 0x8F04, 0); //<Thou art most welcome in Brecconary>
@@ -82,7 +82,7 @@ namespace DragonWarriorTextEditor
             }
         }
 
-        private void Form9_rc_Load(object sender, EventArgs e)
+        private void FormDialog2_Load(object sender, EventArgs e)
         {
             readRomText();
             setMaxLengthOfTextBoxes();

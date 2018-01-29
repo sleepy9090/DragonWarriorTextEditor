@@ -160,10 +160,17 @@ namespace DragonWarriorTextEditor {
             formDialog9.ShowDialog();
         }
 
+        private void endingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormEndingAndCredits formEndingAndCredits = new FormEndingAndCredits(path);
+            formEndingAndCredits.ShowDialog();
+        }
+
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
         }
         #endregion
+
     }
 }

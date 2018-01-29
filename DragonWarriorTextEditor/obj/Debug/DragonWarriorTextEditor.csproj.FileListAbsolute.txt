@@ -51,15 +51,8 @@ E:\emu rom\dq\Dq1_editor\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Deb
 C:\Users\bbb1\Source\Repos\DragonWarriorTextEditor\DragonWarriorTextEditor\bin\Debug\DragonWarriorTextEditor.exe.config
 C:\Users\bbb1\Source\Repos\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.exe
 C:\Users\bbb1\Source\Repos\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.pdb
-F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\bin\Debug\DragonWarriorTextEditor.exe.config
 F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.exe
-F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.pdb
-F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\bin\Debug\DragonWarriorTextEditor.exe
-F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\bin\Debug\DragonWarriorTextEditor.pdb
-F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.csprojResolveAssemblyReference.cache
 F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.AboutBox1.resources
-F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.Properties.Resources.resources
-F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.csproj.GenerateResource.Cache
 F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.Form1Main.resources
 F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.FormDialog1.resources
 F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.FormDialog8.resources
@@ -76,3 +69,11 @@ F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\Dr
 F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.FormTitleScreens.resources
 F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.FormDialog2.resources
 F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.FormDialog9.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.Properties.Resources.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.csproj.GenerateResource.Cache
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.pdb
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\bin\Debug\DragonWarriorTextEditor.exe.config
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\bin\Debug\DragonWarriorTextEditor.exe
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\bin\Debug\DragonWarriorTextEditor.pdb
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.csprojResolveAssemblyReference.cache
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Debug\DragonWarriorTextEditor.FormEndingAndCredits.resources

@@ -31,40 +31,40 @@ namespace DragonWarriorTextEditor {
                 backend.updateROMText(0x2F, textBoxRC1.Text, 0xB14E, 0); //<Descendant of Erdrick, listen now to my words>
                 backend.updateROMText(0x49, textBoxRC2.Text, 0xB17F, 0); //<It is told that in ages past Erdrick fought demons with a Ball of Light>
                 backend.updateROMText(0x52, textBoxRC3.Text, 0xB1CA, 0); //<Then came the Dragonlord who stole the precious globe and hid it in the darkness>
-                backend.updateROMText(0x53, textBoxRC4.Text, 0xB21E, 0); //<Now, ь, thou must help us recover the Ball of Light and restore peace to our land>
+                backend.updateROMText(0x53, textBoxRC4.Text, 0xB21E, 0); //<Now, @, thou must help us recover the Ball of Light and restore peace to our land>
                 backend.updateROMText(0x21, textBoxRC5.Text, 0xB273, 0); //<The Dragonlord must be defeated>
                 backend.updateROMText(0x53, textBoxRC6.Text, 0xB296, 0); //<Take now whatever thou may find in these Treasure Chests to aid thee in thy quest>
                 backend.updateROMText(0x4C, textBoxRC7.Text, 0xB2EB, 0); //<Then speak with the guards, for they have much knowledge that may aid thee>
-                backend.updateROMText(0x22, textBoxRC8.Text, 0xB339, 0); //<May the light shine upon thee, ь>
+                backend.updateROMText(0x22, textBoxRC8.Text, 0xB339, 0); //<May the light shine upon thee, @>
                 backend.updateROMText(0x10, textBoxRC9.Text, 0x8038, 0); //ё hath woken up.
                 backend.updateROMText(0xE, textBoxRC10.Text, 0x804B, 0); //Thou art dead.
                 backend.updateROMText(0x41, textBoxRC11.Text, 0x805A, 0); //<Thou art strong enough!~Why can thou not defeat the Dragonlord?'
                 backend.updateROMText(0x3B, textBoxRC12.Text, 0x809D, 0); //<If thou art planning to take a rest, first see King Lorik>
-                backend.updateROMText(0x27, textBoxRC13.Text, 0x80D9, 0); //ь held the Rainbow Drop toward the sky.
+                backend.updateROMText(0x27, textBoxRC13.Text, 0x80D9, 0); //@ held the Rainbow Drop toward the sky.
                 backend.updateROMText(0x1D, textBoxRC14.Text, 0x8104, 0); //But no rainbow appeared here.
-                backend.updateROMText(0x39, textBoxRC15.Text, 0x8122, 0); //<Good morning.~Thou hast had a good night゜s sleep I hope>
+                backend.updateROMText(0x39, textBoxRC15.Text, 0x8122, 0); //<Good morning.~Thou hast had a good night’s sleep I hope>
                 backend.updateROMText(0x18, textBoxRC16.Text, 0x815D, 0); //<I shall see thee again>
                 backend.updateROMText(0x35, textBoxRC17.Text, 0x8176, 0); //<Good morning.~Thou seems to have spent a good night>
                 backend.updateROMText(0xC, textBoxRC18.Text, 0x81AD, 0); //<Good night>
                 backend.updateROMText(0x1A, textBoxRC19.Text, 0x81BB, 0); //<Okay.~Good-bye, traveler>
-                backend.updateROMText(0x5B, textBoxRC20.Text, 0x81D6, 0); //<Welcome to the traveler's Inn.~Room and board is Ɠ GOLD per night.~Dost thou want a room?'~
+                backend.updateROMText(0x5B, textBoxRC20.Text, 0x81D6, 0); //<Welcome to the traveler's Inn.~Room and board is % GOLD per night.~Dost thou want a room?'~
                 backend.updateROMText(0x16, textBoxRC21.Text, 0x8233, 0); //<All the best to thee>
                 backend.updateROMText(0x1A, textBoxRC22.Text, 0x824A, 0); //<There are no stairs here>
                 backend.updateROMText(0x18, textBoxRC23.Text, 0x8265, 0); //<Thou cannot enter here>
                 backend.updateROMText(0x17, textBoxRC24.Text, 0x827E, 0); //<There is no one there>
-                backend.updateROMText(0x2F, textBoxRC25.Text, 0x8296, 0); //<I thank thee.~Won゜t thou buy one more bottle?'~
+                backend.updateROMText(0x2F, textBoxRC25.Text, 0x8296, 0); //<I thank thee.~Won’t thou buy one more bottle?'~
                 backend.updateROMText(0x53, textBoxRC26.Text, 0x82C7, 0); //<Will thou buy some Fairy Water for 38 GOLD to keep the Dragonlord's minions away?'
                 backend.updateROMText(0x17, textBoxRC27.Text, 0x831C, 0); //<I will see thee later>
                 backend.updateROMText(0x1C, textBoxRC28.Text, 0x8334, 0); //<Thou hast not enough money>
                 backend.updateROMText(0x2C, textBoxRC29.Text, 0x8352, 0); //<I am sorry, but I cannot sell thee anymore>
                 backend.updateROMText(0x36, textBoxRC30.Text, 0x837F, 0); //<Here,take this key. Dost thou wish to purchase more?'
-                backend.updateROMText(0x53, textBoxRC31.Text, 0x83B7, 0); //<Magic keys! They will unlock any door. Dost thou wish to purchase one for Ɠ GOLD?'
+                backend.updateROMText(0x53, textBoxRC31.Text, 0x83B7, 0); //<Magic keys! They will unlock any door. Dost thou wish to purchase one for % GOLD?'
                 backend.updateROMText(0xC, textBoxRC32.Text, 0x840C, 0); //<I am sorry>
                 backend.updateROMText(0x19, textBoxRC33.Text, 0x841A, 0); //A curse is upon thy body.
                 backend.updateROMText(0x1A, textBoxRC34.Text, 0x8435, 0); //<Thou hast no possessions>
                 backend.updateROMText(0x20, textBoxRC35.Text, 0x8450, 0); //<Wilt thou sell anything else?'~
                 backend.updateROMText(0x11, textBoxRC36.Text, 0x8471, 0); //<I cannot buy it>
-                backend.updateROMText(0x42, textBoxRC37.Text, 0x8483, 0); //<Thou said the ϊ. I will buy thy ϊ for Ɠ GOLD.~Is that all right?'
+                backend.updateROMText(0x42, textBoxRC37.Text, 0x8483, 0); //<Thou said the +. I will buy thy + for % GOLD.~Is that all right?'
                 backend.updateROMText(0x18, textBoxRC38.Text, 0x84C7, 0); //<What art thou selling?'
                 backend.updateROMText(0x26, textBoxRC39.Text, 0x84E1, 0); //<I will be waiting for thy next visit>
                 backend.updateROMText(0x1F, textBoxRC40.Text, 0x8508, 0); //<Dost thou want anything else?'

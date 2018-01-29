@@ -29,7 +29,7 @@ namespace DragonWarriorTextEditor {
                 Backend backend = new Backend(path);
 
                 backend.updateROMText(0x5, textBoxC1.Text, 0x7C80, 0); //Slime
-                backend.updateROMText(0x3, textBoxC2.Text, 0x7C86, 0); //Red: for Slime or Dragon [i dont know]
+                backend.updateROMText(0x3, textBoxC2.Text, 0x7C86, 0); //Red
                 backend.updateROMText(0x6, textBoxC3.Text, 0x7C8A, 0); //Drakee
                 backend.updateROMText(0x5, textBoxC4.Text, 0x7C91, 0); //Ghost
                 backend.updateROMText(0x8, textBoxC5.Text, 0x7C97, 0); //Magician
@@ -41,10 +41,10 @@ namespace DragonWarriorTextEditor {
                 backend.updateROMText(0x8, textBoxC11.Text, 0x7CCC, 0); //Drakeema
                 backend.updateROMText(0x8, textBoxC12.Text, 0x7CD5, 0); //Skeleton
                 backend.updateROMText(0x7, textBoxC13.Text, 0x7CDE, 0); //Warlock
-                backend.updateROMText(0x5, textBoxC14.Text, 0x7CE6, 0); //Metal: for Slime or Scorpion [i dont know]
+                backend.updateROMText(0x5, textBoxC14.Text, 0x7CE6, 0); //Metal
                 backend.updateROMText(0x4, textBoxC15.Text, 0x7CEC, 0); //Wolf
                 backend.updateROMText(0x6, textBoxC16.Text, 0x7CF1, 0); //Wraith
-                backend.updateROMText(0x5, textBoxC17.Text, 0x7CF8, 0); //Metal: for Slime or Scorpion [i dont know]
+                backend.updateROMText(0x5, textBoxC17.Text, 0x7CF8, 0); //Metal
                 backend.updateROMText(0x7, textBoxC18.Text, 0x7CFE, 0); //Specter
                 backend.updateROMText(0x8, textBoxC19.Text, 0x7D06, 0); //Wolflord
                 backend.updateROMText(0x9, textBoxC20.Text, 0x7D0F, 0); //Druinlord

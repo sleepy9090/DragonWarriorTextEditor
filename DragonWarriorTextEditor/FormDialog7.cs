@@ -33,21 +33,21 @@ namespace DragonWarriorTextEditor
                 string absoluteFilename = path;
                 Backend backend = new Backend(path);
 
-                backend.updateROMText(0x16, textBoxFF1.Text, 0xAFB6, 0); //chants the spell of Σ.
-                backend.updateROMText(0x15, textBoxFF2.Text, 0xAFCD, 0); //ь゜s spell is blocked.
+                backend.updateROMText(0x16, textBoxFF1.Text, 0xAFB6, 0); //chants the spell of &.
+                backend.updateROMText(0x15, textBoxFF2.Text, 0xAFCD, 0); //@’s spell is blocked.
                 backend.updateROMText(0x45, textBoxFF3.Text, 0xAFFE, 0); //<If thou hast collected all the Treasure Chests,~a key will be found>
                 backend.updateROMText(0x58, textBoxFF4.Text, 0xB045, 0); //<Once used, the key will disappear, but the door will be open and thou may pass through>
                 backend.updateROMText(0x5B, textBoxFF5.Text, 0xB09E, 0); //<East of this castle is a town where armor, weapons, and many other items may be purchased>
-                backend.updateROMText(0x3F, textBoxFF6.Text, 0xB0FB, 0); //<Return to the Inn for a rest if thou art wounded in battle, ь>
+                backend.updateROMText(0x3F, textBoxFF6.Text, 0xB0FB, 0); //<Return to the Inn for a rest if thou art wounded in battle, @>
                 backend.updateROMText(0x11, textBoxFF7.Text, 0xB13C, 0); //<Sleep heals all>
                 backend.updateROMText(0x2F, textBoxFF8.Text, 0xB14E, 0); //<Descendant of Erdrick, listen now to my words>
                 backend.updateROMText(0x49, textBoxFF9.Text, 0xB17F, 0); //<It is told that in ages past Erdrick fought demons with a Ball of Light>
                 backend.updateROMText(0x52, textBoxFF10.Text, 0xB1CA, 0); //<Then came the Dragonlord who stole the precious globe and hid it in the darkness>
-                backend.updateROMText(0x53, textBoxFF11.Text, 0xB21E, 0); //<Now, ь, thou must help us recover the Ball of Light and restore peace to our land>
+                backend.updateROMText(0x53, textBoxFF11.Text, 0xB21E, 0); //<Now, @, thou must help us recover the Ball of Light and restore peace to our land>
                 backend.updateROMText(0x21, textBoxFF12.Text, 0xB273, 0); //<The Dragonlord must be defeated>
                 backend.updateROMText(0x53, textBoxFF13.Text, 0xB296, 0); //<Take now whatever thou may find in these Treasure Chests to aid thee in thy quest>
                 backend.updateROMText(0x4C, textBoxFF14.Text, 0xB2EB, 0); //<Then speak with the guards, for they have much knowledge that may aid thee>
-                backend.updateROMText(0x22, textBoxFF15.Text, 0xB339, 0); //<May the light shine upon thee, ь>
+                backend.updateROMText(0x22, textBoxFF15.Text, 0xB339, 0); //<May the light shine upon thee, @>
                 backend.updateROMText(0x1C, textBoxFF16.Text, 0xB35D, 0); //The tablet reads as follows:
                 backend.updateROMText(0x2A, textBoxFF17.Text, 0xB37D, 0); // <I am Erdrick and thou art my descendant>
                 backend.updateROMText(0x55, textBoxFF18.Text, 0xB3A9, 0); // <Three items were needed to reach the Isle of Dragons, which is south of Brecconary>
@@ -56,22 +56,22 @@ namespace DragonWarriorTextEditor
                 backend.updateROMText(0x57, textBoxFF21.Text, 0xB49D, 0); // <Their descendants will protect the items until thy quest leads thee to seek them out>
                 backend.updateROMText(0x3C, textBoxFF22.Text, 0xB4F6, 0); // <When a new evil arises, find the three items, then fight!'
                 backend.updateROMText(0xF, textBoxFF23.Text, 0xB533, 0); //Excellent move!
-                backend.updateROMText(0x41, textBoxFF24.Text, 0xB543, 0); //<ь?~This is Gwaelin.~Know that thou hath reached the final level>
+                backend.updateROMText(0x41, textBoxFF24.Text, 0xB543, 0); //<@?~This is Gwaelin.~Know that thou hath reached the final level>
                 backend.updateROMText(0x10, textBoxFF25.Text, 0xB586, 0); //Thou art asleep.
                 backend.updateROMText(0x16, textBoxFF26.Text, 0xB599, 0); //Thou art still asleep.
-                backend.updateROMText(0x9, textBoxFF27.Text, 0xB5B2, 0); //ь awakes.
+                backend.updateROMText(0x9, textBoxFF27.Text, 0xB5B2, 0); //@ awakes.
                 backend.updateROMText(0x15, textBoxFF28.Text, 0xB5BC, 0); //The ё hath recovered.
                 backend.updateROMText(0xE, textBoxFF29.Text, 0xB5D2, 0); //It is dodging!
                 backend.updateROMText(0x16, textBoxFF30.Text, 0xB5E1, 0); //There is no door here.
                 backend.updateROMText(0x1B, textBoxFF31.Text, 0xB5F8, 0); //Thou hast not a key to use.
-                backend.updateROMText(0x25, textBoxFF32.Text, 0xB614, 0); //<Death should not have taken thee, ь>
+                backend.updateROMText(0x25, textBoxFF32.Text, 0xB614, 0); //<Death should not have taken thee, @>
                 backend.updateROMText(0x21, textBoxFF33.Text, 0xB63B, 0); //<I will give thee another chance>
-                backend.updateROMText(0x19, textBoxFF34.Text, 0xB65E, 0); //Thy power increases by Ɠ.
-                backend.updateROMText(0x22, textBoxFF35.Text, 0xB678, 0); //Thy Response Speed increases by Ɠ.
-                backend.updateROMText(0x20, textBoxFF36.Text, 0xB69C, 0); // Thy Maximum Hitϋ increase by Ɠ.
-                backend.updateROMText(0x22, textBoxFF37.Text, 0xB6BE, 0); // Thy Maximum Magicϋ increase by Ɠ.
-                backend.updateROMText(0x3D, textBoxFF38.Text, 0xB6E1, 0); //<To reach the next level, thy Experienceϋ must increase by Ɠ>
-                backend.updateROMText(0xD, textBoxFF39.Text, 0xB720, 0); //<Now, go, ь!'
+                backend.updateROMText(0x19, textBoxFF34.Text, 0xB65E, 0); //Thy power increases by %.
+                backend.updateROMText(0x22, textBoxFF35.Text, 0xB678, 0); //Thy Response Speed increases by %.
+                backend.updateROMText(0x20, textBoxFF36.Text, 0xB69C, 0); // Thy Maximum Hitϋ increase by %.
+                backend.updateROMText(0x22, textBoxFF37.Text, 0xB6BE, 0); // Thy Maximum Magicϋ increase by %.
+                backend.updateROMText(0x3D, textBoxFF38.Text, 0xB6E1, 0); //<To reach the next level, thy Experienceϋ must increase by %>
+                backend.updateROMText(0xD, textBoxFF39.Text, 0xB720, 0); //<Now, go, @!'
                 backend.updateROMText(0x26, textBoxFF40.Text, 0xB72E, 0); //<Thou hast failed and thou art cursed>
 
                 MessageBox.Show("Updated Text!", "Dragon Warrior Text Editor", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -82,7 +82,7 @@ namespace DragonWarriorTextEditor
             }
         }
 
-        private void Form9_rc_Load(object sender, EventArgs e)
+        private void FormDialog7_Load(object sender, EventArgs e)
         {
             readRomText();
             setMaxLengthOfTextBoxes();

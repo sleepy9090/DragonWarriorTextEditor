@@ -45,7 +45,7 @@ namespace DragonWarriorTextEditor {
             }
         }
 
-        private void Form2_pg_Load(object sender, EventArgs e) {
+        private void FormSpells_Load(object sender, EventArgs e) {
             setMaxLengthOfTextBoxes();
             readRomText();
         }

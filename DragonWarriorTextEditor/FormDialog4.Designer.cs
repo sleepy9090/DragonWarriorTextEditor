@@ -464,7 +464,7 @@
             this.MaximizeBox = false;
             this.Name = "FormDialog4";
             this.Text = "Dialog 4";
-            this.Load += new System.EventHandler(this.Form9_rc_Load);
+            this.Load += new System.EventHandler(this.FormDialog4_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

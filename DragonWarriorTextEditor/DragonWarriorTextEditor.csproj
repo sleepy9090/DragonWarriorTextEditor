@@ -69,6 +69,12 @@
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </Compile>
     <Compile Include="Backend.cs" />
+    <Compile Include="FormEndingAndCredits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEndingAndCredits.Designer.cs">
+      <DependentUpon>FormEndingAndCredits.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +176,9 @@
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormEndingAndCredits.resx">
+      <DependentUpon>FormEndingAndCredits.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -264,6 +273,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dq.ico" />
+    <None Include="res\dwnpcover.jpg" />
     <None Include="res\title.png" />
     <None Include="res\spells.png" />
   </ItemGroup>

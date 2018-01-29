@@ -48,3 +48,29 @@ E:\emu rom\dq\Dq1_editor\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Rel
 E:\emu rom\dq\Dq1_editor\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.csproj.GenerateResource.Cache
 E:\emu rom\dq\Dq1_editor\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.exe
 E:\emu rom\dq\Dq1_editor\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.pdb
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\bin\Release\DragonWarriorTextEditor.exe.config
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.exe
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.pdb
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\bin\Release\DragonWarriorTextEditor.exe
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\bin\Release\DragonWarriorTextEditor.pdb
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.csprojResolveAssemblyReference.cache
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.AboutBox1.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.FormEndingAndCredits.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.Form1Main.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.FormDialog1.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.FormDialog8.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.FormDialog7.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.FormDialog6.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.FormDialog5.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.FormDialog4.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.FormDialog3.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.FormSpells.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.FormItems.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.FormMenusAndCommands.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.FormEquipment.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.FormMonsters.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.FormTitleScreens.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.FormDialog2.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.FormDialog9.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.Properties.Resources.resources
+F:\Users\sleepy\Documents\visual studio 2013\Projects\DragonWarriorTextEditor\DragonWarriorTextEditor\obj\Release\DragonWarriorTextEditor.csproj.GenerateResource.Cache

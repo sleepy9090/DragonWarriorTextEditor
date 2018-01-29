@@ -33,25 +33,25 @@ namespace DragonWarriorTextEditor
                 string absoluteFilename = path;
                 Backend backend = new Backend(path);
 
-                backend.updateROMText(0x23, textBoxAA1.Text, 0x9301, 0); //<I゜m too busy.~Ask the other guard>
+                backend.updateROMText(0x23, textBoxAA1.Text, 0x9301, 0); //<I’m too busy.~Ask the other guard>
                 backend.updateROMText(0x3C, textBoxAA2.Text, 0x9325, 0); //<I suggest making a map if thy path leads into the darkness>
                 backend.updateROMText(0x5E, textBoxAA3.Text, 0x9362, 0); //<Once there was a town called Hauksness far to the south,but I do not know if it still exists>
-                backend.updateROMText(0x1E, textBoxAA4.Text, 0x93C1, 0); //<I hate people!~Go! Leave me!゜
-                backend.updateROMText(0x33, textBoxAA5.Text, 0x93E0, 0); //<They say that Erdrick゜s armor was hidden long ago>
+                backend.updateROMText(0x1E, textBoxAA4.Text, 0x93C1, 0); //<I hate people!~Go! Leave me!’
+                backend.updateROMText(0x33, textBoxAA5.Text, 0x93E0, 0); //<They say that Erdrick’s armor was hidden long ago>
                 backend.updateROMText(0x3D, textBoxAA6.Text, 0x9414, 0); //<Many believe that Princess Gwaelin is hidden away in a cave>
-                backend.updateROMText(0x3E, textBoxAA7.Text, 0x9452, 0); //<I have heard of one named Nester.~Dost thou know such a one?゜
+                backend.updateROMText(0x3E, textBoxAA7.Text, 0x9452, 0); //<I have heard of one named Nester.~Dost thou know such a one?’
                 backend.updateROMText(0x50, textBoxAA8.Text, 0x9491, 0); //<Garin, a wandering minstrel of legendary fame, is said to have built this town>
                 backend.updateROMText(0x35, textBoxAA9.Text, 0x94E2, 0); //<Welcome to Garinham.~May thy stay be a peaceful one>
                 backend.updateROMText(0x3F, textBoxAA10.Text, 0x9518, 0); //<It is said that the Princess was kidnapped and taken eastward>
                 backend.updateROMText(0x49, textBoxAA11.Text, 0x9558, 0); //<Come buy my radishes! They are fresh and cheap.~Buy thy radishes today!'
                 backend.updateROMText(0x69, textBoxAA12.Text, 0x95A2, 0); //<To learn how proof may be obtained that thy ancestor was the great Erdrick, see a man in this very town>
-                backend.updateROMText(0x33, textBoxAA13.Text, 0x960C, 0); //<ﾟTis said that Erdrick゜s sword could cleave steel>
+                backend.updateROMText(0x33, textBoxAA13.Text, 0x960C, 0); //<ﾟTis said that Erdrick’s sword could cleave steel>
                 backend.updateROMText(0x25, textBoxAA14.Text, 0x9640, 0); //<Welcome to Cantlin, the castle town>
                 backend.updateROMText(0x22, textBoxAA15.Text, 0x9666, 0); //<What shall I get for thy dinner?'
                 backend.updateROMText(0x10, textBoxAA16.Text, 0x9689, 0); //<I know nothing>
-                backend.updateROMText(0x31, textBoxAA17.Text, 0x969A, 0); //<I゜m Nester.~Hey, where am I? No, don゜t tell me!'
+                backend.updateROMText(0x31, textBoxAA17.Text, 0x969A, 0); //<I’m Nester.~Hey, where am I? No, don’t tell me!'
                 backend.updateROMText(0x7A, textBoxAA18.Text, 0x96CC, 0); //<Grandfather used to say that his friend, Wynn, had buried something of great value at the foot of a tree behind his shop>
-                backend.updateROMText(0x30, textBoxAA19.Text, 0x9747, 0); //<It is said that many have held Erdrick゜s armor>
+                backend.updateROMText(0x30, textBoxAA19.Text, 0x9747, 0); //<It is said that many have held Erdrick’s armor>
                 backend.updateROMText(0x2D, textBoxAA20.Text, 0x9779, 0); //<The last to have it was a fellow named Wynn>
                 backend.updateROMText(0x43, textBoxAA21.Text, 0x97A7, 0); //<My Grandfather Wynn once had a shop on the east side of Hauksness>
                 backend.updateROMText(0xA, textBoxAA22.Text, 0x97EB, 0); //<Welcome!'
@@ -63,14 +63,14 @@ namespace DragonWarriorTextEditor
                 backend.updateROMText(0x5B, textBoxAA28.Text, 0x993A, 0); //<Thou shalt find the Stones of Sunlight in Tantegel Castle,~if thou has not found them yet>
                 backend.updateROMText(0x21, textBoxAA29.Text, 0x9996, 0); //<Welcome to the town of Rimuldar>
                 backend.updateROMText(0x32, textBoxAA30.Text, 0x99B8, 0); //<No, I have no tomatoes.~I have no tomatoes today>
-                backend.updateROMText(0x2F, textBoxAA31.Text, 0x99EB, 0); //<You are ь?~It has been long since last we met>
+                backend.updateROMText(0x2F, textBoxAA31.Text, 0x99EB, 0); //<You are @?~It has been long since last we met>
                 backend.updateROMText(0x58, textBoxAA32.Text, 0x9A1B, 0); //<Good day,I am Howard. Four steps south of the bath in Kol thou shalt find a magic item>
                 backend.updateROMText(0x23, textBoxAA33.Text, 0x9A74, 0); //<Before long the enemy will arrive>
                 backend.updateROMText(0x59, textBoxAA34.Text, 0x9A98, 0); //<Heed my warning! Travel not to the south for there the monsters are fierce and terrible>
                 backend.updateROMText(0x50, textBoxAA35.Text, 0x9AF2, 0); //<In this world is there any sword that can pierce the scales of the Dragonlord?'
-                backend.updateROMText(0x24, textBoxAA36.Text, 0x9B43, 0); //<Orwick is late again. I゜m starving>
+                backend.updateROMText(0x24, textBoxAA36.Text, 0x9B43, 0); //<Orwick is late again. I’m starving>
                 backend.updateROMText(0x3D, textBoxAA37.Text, 0x9B68, 0); //<Many have been the warriors who have perished on this quest>
-                backend.updateROMText(0x20, textBoxAA38.Text, 0x9BA7, 0); //<But for thee I wish success, ь>
+                backend.updateROMText(0x20, textBoxAA38.Text, 0x9BA7, 0); //<But for thee I wish success, @>
                 backend.updateROMText(0x1D, textBoxAA39.Text, 0x9BC8, 0); //<Hast thou found the flute?'~
                 backend.updateROMText(0x29, textBoxAA40.Text, 0x9BE6, 0); //<Hast thou been to the southern island?'~
 
@@ -82,7 +82,7 @@ namespace DragonWarriorTextEditor
             }
         }
 
-        private void Form9_rc_Load(object sender, EventArgs e)
+        private void FormDialog3_Load(object sender, EventArgs e)
         {
             readRomText();
             setMaxLengthOfTextBoxes();

@@ -46,24 +46,24 @@ namespace DragonWarriorTextEditor
                 backend.updateROMText(0x28, textBoxGG11.Text, 0xB8F8, 0); //‘Thou art indeed of the line of Erdrick’
                 backend.updateROMText(0x28, textBoxGG12.Text, 0xB922, 0); //‘It is thy right to rule over this land’
                 backend.updateROMText(0x1A, textBoxGG13.Text, 0xB94C, 0); //‘Will thou take my place?'
-                backend.updateROMText(0x25, textBoxGG14.Text, 0xB968, 0); //ь thought carefully before answering.
-                backend.updateROMText(0x12, textBoxGG15.Text, 0xB98F, 0); //I cannot,'said ь.
+                backend.updateROMText(0x25, textBoxGG14.Text, 0xB968, 0); //@ thought carefully before answering.
+                backend.updateROMText(0x12, textBoxGG15.Text, 0xB98F, 0); //I cannot,'said @.
                 backend.updateROMText(0x46, textBoxGG16.Text, 0xB9A4, 0); //‘If ever I am to rule a country, it must be a land that I myself find’
                 backend.updateROMText(0x1C, textBoxGG17.Text, 0xB9EC, 0); //Gwaelin said: ‘Please, wait’
                 backend.updateROMText(0x27, textBoxGG18.Text, 0xBA0A, 0); //‘I wish to go with thee on thy journey’
                 backend.updateROMText(0x21, textBoxGG19.Text, 0xBA33, 0); //‘May I travel as thy companion?'
-                backend.updateROMText(0x1F, textBoxGG20.Text, 0xBA55, 0); //‘Hurrah! Hurrah! Long live ь!'
+                backend.updateROMText(0x1F, textBoxGG20.Text, 0xBA55, 0); //‘Hurrah! Hurrah! Long live @!'
                 backend.updateROMText(0x23, textBoxGG21.Text, 0xBA75, 0); //‘Thou hast brought us peace, again’
                 backend.updateROMText(0x1D, textBoxGG22.Text, 0xBA99, 0); //‘Come now, King Lorik awaits’
-                backend.updateROMText(0x44, textBoxGG23.Text, 0xBAC5, 0); //And thus the tale comes to an end...unless the dragons return again.
+                backend.updateROMText(0x44, textBoxGG23.Text, 0xBAC5, 0); //And thus the tale comes to an end....unless the dragons return again.
                 backend.updateROMText(0x40, textBoxGG24.Text, 0xBB11, 0); //‘Will thou tell me now of thy deeds so they won't be forgotten?'
                 backend.updateROMText(0x3F, textBoxGG25.Text, 0xBB53, 0); //‘Thy deeds have been recorded on the Imperial Scrolls of Honor’
                 backend.updateROMText(0x27, textBoxGG26.Text, 0xBB94, 0); //‘Dost thou wish to continue thy quest?'
                 backend.updateROMText(0x16, textBoxGG27.Text, 0xBBBD, 0); //‘Rest then for awhile’
-                backend.updateROMText(0x7, textBoxGG28.Text, 0xBBD5, 0); //‘Go ь!'
+                backend.updateROMText(0x7, textBoxGG28.Text, 0xBBD5, 0); //‘Go @!'
                 backend.updateROMText(0x37, textBoxGG29.Text, 0xBBDD, 0); //Please push RESET, hold it in, then turn off the POWER.
                 backend.updateROMText(0x60, textBoxGG30.Text, 0xBC16, 0); //If you turn the power off first, the Imperial Scroll of Honor containing your deeds may be lost.
-                backend.updateROMText(0x42, textBoxGG31.Text, 0xBC7C, 0); //Unfortunately, NO deeds were recorded on Imperial Scroll number Ɠ.
+                backend.updateROMText(0x42, textBoxGG31.Text, 0xBC7C, 0); //Unfortunately, NO deeds were recorded on Imperial Scroll number %.
 
                 MessageBox.Show("Updated Text!", "Dragon Warrior Text Editor", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -77,6 +77,7 @@ namespace DragonWarriorTextEditor
         {
             readRomText();
             setMaxLengthOfTextBoxes();
+            disableUnusedComponents();
         }
 
         private void readRomText()
@@ -116,6 +117,7 @@ namespace DragonWarriorTextEditor
                 textBoxGG29.Text = backend.getROMText(0x37, 0xBBDD, 0);
                 textBoxGG30.Text = backend.getROMText(0x60, 0xBC16, 0);
                 textBoxGG31.Text = backend.getROMText(0x42, 0xBC7C, 0);
+                
             }
             catch (Exception ex)
             {
@@ -156,6 +158,19 @@ namespace DragonWarriorTextEditor
             textBoxGG29.MaxLength = 0x37;
             textBoxGG30.MaxLength = 0x60;
             textBoxGG31.MaxLength = 0x42;
+        }
+
+        private void disableUnusedComponents()
+        {
+            textBoxGG32.Enabled = false;
+            textBoxGG33.Enabled = false;
+            textBoxGG34.Enabled = false;
+            textBoxGG35.Enabled = false;
+            textBoxGG36.Enabled = false;
+            textBoxGG37.Enabled = false;
+            textBoxGG38.Enabled = false;
+            textBoxGG39.Enabled = false;
+            textBoxGG40.Enabled = false;
         }
     }
 }

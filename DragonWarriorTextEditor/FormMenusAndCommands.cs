@@ -28,39 +28,39 @@ namespace DragonWarriorTextEditor {
                 string absoluteFilename = path;
                 Backend backend = new Backend(path);
 
-                backend.updateROMText(0x7, textBoxDL1.Text, 0x706B, 1); //COMMAND
-                backend.updateROMText(0x4, textBoxDL2.Text, 0x7074, 1); //TALK
-                backend.updateROMText(0x5, textBoxDL3.Text, 0x7079, 1); //SPELL
-                backend.updateROMText(0x6, textBoxDL4.Text, 0x707F, 1); //STATUS
-                backend.updateROMText(0x4, textBoxDL5.Text, 0x7086, 1); //ITEM
-                backend.updateROMText(0x6, textBoxDL6.Text, 0x708C, 1); //STAIRS
-                backend.updateROMText(0x4, textBoxDL7.Text, 0x7093, 1); //DOOR
-                backend.updateROMText(0x6, textBoxDL8.Text, 0x7099, 1); //SEARCH
-                backend.updateROMText(0x4, textBoxDL9.Text, 0x70A0, 1); //TAKE
-                backend.updateROMText(0x4, textBoxDL10.Text, 0x6FDD, 1); //NAME
-                backend.updateROMText(0x8, textBoxDL11.Text, 0x6FE5, 1); //STRENGTH
-                backend.updateROMText(0x7, textBoxDL12.Text, 0x6FF1, 1); //AGILITY
-                backend.updateROMText(0x7, textBoxDL13.Text, 0x6FFC, 1); //MAXIMUM
-                backend.updateROMText(0x2, textBoxDL14.Text, 0x7004, 1); //HP
-                backend.updateROMText(0x7, textBoxDL15.Text, 0x700A, 1); //MAXIMUM
-                backend.updateROMText(0x2, textBoxDL16.Text, 0x7012, 1); //MP
-                backend.updateROMText(0x6, textBoxDL17.Text, 0x7018, 1); //ATTACK
-                backend.updateROMText(0x5, textBoxDL18.Text, 0x701F, 1); //POWER
-                backend.updateROMText(0x7, textBoxDL19.Text, 0x7028, 1); //DEFENSE
-                backend.updateROMText(0x5, textBoxDL20.Text, 0x7030, 1); //POWER
-                backend.updateROMText(0x6, textBoxDL21.Text, 0x7039, 1); //WEAPON
-                backend.updateROMText(0x5, textBoxDL22.Text, 0x7045, 1); //ARMOR
-                backend.updateROMText(0x6, textBoxDL23.Text, 0x7050, 1); //SHIELD
-                backend.updateROMText(0x7, textBoxDL24.Text, 0x70AC, 1); //COMMAND
-                backend.updateROMText(0x5, textBoxDL25.Text, 0x70B5, 1); //FIGHT
-                backend.updateROMText(0x5, textBoxDL26.Text, 0x70BB, 1); //SPELL
-                backend.updateROMText(0x3, textBoxDL27.Text, 0x70C1, 1); //RUN
-                backend.updateROMText(0x4, textBoxDL28.Text, 0x70C5, 1); //ITEM
-                backend.updateROMText(0x3, textBoxDL29.Text, 0x7103, 1); //YES
-                backend.updateROMText(0x2, textBoxDL30.Text, 0x7108, 1); //NO
-                backend.updateROMText(0x3, textBoxDL31.Text, 0x7113, 1); //BUY
-                backend.updateROMText(0x4, textBoxDL32.Text, 0x7118, 1); //SELL
-                backend.updateROMText(0x5, textBoxDL33.Text, 0x70D1, 1); //SPELL
+                backend.updateROMText(0x7, textBoxDL1.Text, 0x706B, 0); //COMMAND
+                backend.updateROMText(0x4, textBoxDL2.Text, 0x7074, 0); //TALK
+                backend.updateROMText(0x5, textBoxDL3.Text, 0x7079, 0); //SPELL
+                backend.updateROMText(0x6, textBoxDL4.Text, 0x707F, 0); //STATUS
+                backend.updateROMText(0x4, textBoxDL5.Text, 0x7086, 0); //ITEM
+                backend.updateROMText(0x6, textBoxDL6.Text, 0x708C, 0); //STAIRS
+                backend.updateROMText(0x4, textBoxDL7.Text, 0x7093, 0); //DOOR
+                backend.updateROMText(0x6, textBoxDL8.Text, 0x7099, 0); //SEARCH
+                backend.updateROMText(0x4, textBoxDL9.Text, 0x70A0, 0); //TAKE
+                backend.updateROMText(0x4, textBoxDL10.Text, 0x6FDD, 0); //NAME
+                backend.updateROMText(0x8, textBoxDL11.Text, 0x6FE5, 0); //STRENGTH
+                backend.updateROMText(0x7, textBoxDL12.Text, 0x6FF1, 0); //AGILITY
+                backend.updateROMText(0x7, textBoxDL13.Text, 0x6FFC, 0); //MAXIMUM
+                backend.updateROMText(0x2, textBoxDL14.Text, 0x7004, 0); //HP
+                backend.updateROMText(0x7, textBoxDL15.Text, 0x700A, 0); //MAXIMUM
+                backend.updateROMText(0x2, textBoxDL16.Text, 0x7012, 0); //MP
+                backend.updateROMText(0x6, textBoxDL17.Text, 0x7018, 0); //ATTACK
+                backend.updateROMText(0x5, textBoxDL18.Text, 0x701F, 0); //POWER
+                backend.updateROMText(0x7, textBoxDL19.Text, 0x7028, 0); //DEFENSE
+                backend.updateROMText(0x5, textBoxDL20.Text, 0x7030, 0); //POWER
+                backend.updateROMText(0x6, textBoxDL21.Text, 0x7039, 0); //WEAPON
+                backend.updateROMText(0x5, textBoxDL22.Text, 0x7045, 0); //ARMOR
+                backend.updateROMText(0x6, textBoxDL23.Text, 0x7050, 0); //SHIELD
+                backend.updateROMText(0x7, textBoxDL24.Text, 0x70AC, 0); //COMMAND
+                backend.updateROMText(0x5, textBoxDL25.Text, 0x70B5, 0); //FIGHT
+                backend.updateROMText(0x5, textBoxDL26.Text, 0x70BB, 0); //SPELL
+                backend.updateROMText(0x3, textBoxDL27.Text, 0x70C1, 0); //RUN
+                backend.updateROMText(0x4, textBoxDL28.Text, 0x70C5, 0); //ITEM
+                backend.updateROMText(0x3, textBoxDL29.Text, 0x7103, 0); //YES
+                backend.updateROMText(0x2, textBoxDL30.Text, 0x7108, 0); //NO
+                backend.updateROMText(0x3, textBoxDL31.Text, 0x7113, 0); //BUY
+                backend.updateROMText(0x4, textBoxDL32.Text, 0x7118, 0); //SELL
+                backend.updateROMText(0x5, textBoxDL33.Text, 0x70D1, 0); //SPELL
 
                 MessageBox.Show("Updated Text!", "Dragon Warrior Text Editor", MessageBoxButtons.OK, MessageBoxIcon.Information);
             } catch (Exception ex) {
@@ -77,39 +77,39 @@ namespace DragonWarriorTextEditor {
             try {
                 Backend backend = new Backend(path);
 
-                textBoxDL1.Text = backend.getROMText(0x7, 0x706B, 1);
-                textBoxDL2.Text = backend.getROMText(0x4, 0x7074, 1);
-                textBoxDL3.Text = backend.getROMText(0x5, 0x7079, 1);
-                textBoxDL4.Text = backend.getROMText(0x6, 0x707F, 1);
-                textBoxDL5.Text = backend.getROMText(0x4, 0x7086, 1);
-                textBoxDL6.Text = backend.getROMText(0x6, 0x708C, 1);
-                textBoxDL7.Text = backend.getROMText(0x4, 0x7093, 1);
-                textBoxDL8.Text = backend.getROMText(0x6, 0x7099, 1);
-                textBoxDL9.Text = backend.getROMText(0x4, 0x70A0, 1);
-                textBoxDL10.Text = backend.getROMText(0x4, 0x6FDD, 1);
-                textBoxDL11.Text = backend.getROMText(0x8, 0x6FE5, 1);
-                textBoxDL12.Text = backend.getROMText(0x7, 0x6FF1, 1);
-                textBoxDL13.Text = backend.getROMText(0x7, 0x6FFC, 1);
-                textBoxDL14.Text = backend.getROMText(0x2, 0x7004, 1);
-                textBoxDL15.Text = backend.getROMText(0x7, 0x700A, 1);
-                textBoxDL16.Text = backend.getROMText(0x2, 0x7012, 1);
-                textBoxDL17.Text = backend.getROMText(0x6, 0x7018, 1);
-                textBoxDL18.Text = backend.getROMText(0x5, 0x701F, 1);
-                textBoxDL19.Text = backend.getROMText(0x7, 0x7028, 1);
-                textBoxDL20.Text = backend.getROMText(0x5, 0x7030, 1);
-                textBoxDL21.Text = backend.getROMText(0x6, 0x7039, 1);
-                textBoxDL22.Text = backend.getROMText(0x5, 0x7045, 1);
-                textBoxDL23.Text = backend.getROMText(0x6, 0x7050, 1);
-                textBoxDL24.Text = backend.getROMText(0x7, 0x70AC, 1);
-                textBoxDL25.Text = backend.getROMText(0x5, 0x70B5, 1);
-                textBoxDL26.Text = backend.getROMText(0x5, 0x70BB, 1);
-                textBoxDL27.Text = backend.getROMText(0x3, 0x70C1, 1);
-                textBoxDL28.Text = backend.getROMText(0x4, 0x70C5, 1);
-                textBoxDL29.Text = backend.getROMText(0x3, 0x7103, 1);
-                textBoxDL30.Text = backend.getROMText(0x2, 0x7108, 1);
-                textBoxDL31.Text = backend.getROMText(0x3, 0x7113, 1);
-                textBoxDL32.Text = backend.getROMText(0x4, 0x7118, 1);
-                textBoxDL33.Text = backend.getROMText(0x5, 0x70D1, 1);
+                textBoxDL1.Text = backend.getROMText(0x7, 0x706B, 0);
+                textBoxDL2.Text = backend.getROMText(0x4, 0x7074, 0);
+                textBoxDL3.Text = backend.getROMText(0x5, 0x7079, 0);
+                textBoxDL4.Text = backend.getROMText(0x6, 0x707F, 0);
+                textBoxDL5.Text = backend.getROMText(0x4, 0x7086, 0);
+                textBoxDL6.Text = backend.getROMText(0x6, 0x708C, 0);
+                textBoxDL7.Text = backend.getROMText(0x4, 0x7093, 0);
+                textBoxDL8.Text = backend.getROMText(0x6, 0x7099, 0);
+                textBoxDL9.Text = backend.getROMText(0x4, 0x70A0, 0);
+                textBoxDL10.Text = backend.getROMText(0x4, 0x6FDD, 0);
+                textBoxDL11.Text = backend.getROMText(0x8, 0x6FE5, 0);
+                textBoxDL12.Text = backend.getROMText(0x7, 0x6FF1, 0);
+                textBoxDL13.Text = backend.getROMText(0x7, 0x6FFC, 0);
+                textBoxDL14.Text = backend.getROMText(0x2, 0x7004, 0);
+                textBoxDL15.Text = backend.getROMText(0x7, 0x700A, 0);
+                textBoxDL16.Text = backend.getROMText(0x2, 0x7012, 0);
+                textBoxDL17.Text = backend.getROMText(0x6, 0x7018, 0);
+                textBoxDL18.Text = backend.getROMText(0x5, 0x701F, 0);
+                textBoxDL19.Text = backend.getROMText(0x7, 0x7028, 0);
+                textBoxDL20.Text = backend.getROMText(0x5, 0x7030, 0);
+                textBoxDL21.Text = backend.getROMText(0x6, 0x7039, 0);
+                textBoxDL22.Text = backend.getROMText(0x5, 0x7045, 0);
+                textBoxDL23.Text = backend.getROMText(0x6, 0x7050, 0);
+                textBoxDL24.Text = backend.getROMText(0x7, 0x70AC, 0);
+                textBoxDL25.Text = backend.getROMText(0x5, 0x70B5, 0);
+                textBoxDL26.Text = backend.getROMText(0x5, 0x70BB, 0);
+                textBoxDL27.Text = backend.getROMText(0x3, 0x70C1, 0);
+                textBoxDL28.Text = backend.getROMText(0x4, 0x70C5, 0);
+                textBoxDL29.Text = backend.getROMText(0x3, 0x7103, 0);
+                textBoxDL30.Text = backend.getROMText(0x2, 0x7108, 0);
+                textBoxDL31.Text = backend.getROMText(0x3, 0x7113, 0);
+                textBoxDL32.Text = backend.getROMText(0x4, 0x7118, 0);
+                textBoxDL33.Text = backend.getROMText(0x5, 0x70D1, 0);
             } catch (Exception ex) {
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
